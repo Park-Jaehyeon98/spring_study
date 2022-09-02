@@ -24,7 +24,7 @@ public class HelloController {
     @GetMapping("hello-string")
     @ResponseBody
     public String helloString(@RequestParam("name") String name) {
-        return "hello " + name; //name을 spring이라고 하면 "hello spring"
+        return "hello " + name; //name을 spring이라고하면 "hello spring"
     }
 
     @GetMapping("hello-api")
